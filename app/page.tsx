@@ -15,7 +15,7 @@ export default function Home() {
 
       <section>
         <h2 className="text-xs font-medium text-neutral-500 uppercase tracking-[0.15em] mb-8">
-          글
+          생각
         </h2>
         <ul className="space-y-4">
           {recent.map((post) => (
@@ -34,7 +34,7 @@ export default function Home() {
             </li>
           ))}
           {recent.length === 0 && (
-            <li className="text-sm text-neutral-400">아직 작성된 글이 없습니다.</li>
+            <li className="text-sm text-neutral-400">아직 작성된 생각이 없습니다.</li>
           )}
         </ul>
         {recent.length > 0 && (
@@ -42,7 +42,7 @@ export default function Home() {
             href="/writing"
             className="mt-8 inline-block text-sm text-neutral-500 hover:text-neutral-900 transition-colors"
           >
-            모든 글 →
+            모든 생각 →
           </Link>
         )}
       </section>

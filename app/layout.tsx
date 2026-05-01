@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     default: "김준휘",
     template: "%s — 김준휘",
   },
-  description: "김준휘의 글과 프로젝트.",
+  description: "김준휘의 생각과 프로젝트.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
             </Link>
             <nav className="flex gap-6 text-sm text-neutral-600">
               <Link href="/writing" className="hover:text-neutral-900 transition-colors">
-                글
+                생각
               </Link>
               <Link href="/about" className="hover:text-neutral-900 transition-colors">
                 소개
@@ -40,8 +40,8 @@ export default function RootLayout({
         </main>
 
         <footer>
-          <div className="mx-auto max-w-2xl px-6 py-8 text-sm text-neutral-500">
-            © {new Date().getFullYear()} 김준휘
+          <div className="mx-auto max-w-2xl px-6 py-8 text-xs text-neutral-500">
+            © {new Date().getFullYear()} Junhwee Kim. All rights reserved.
           </div>
         </footer>
       </body>
