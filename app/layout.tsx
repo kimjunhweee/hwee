@@ -24,7 +24,7 @@ export default function RootLayout({
             <Link href="/" className="text-base font-semibold tracking-tight">
               김준휘 | kimjunhwee
             </Link>
-            <nav className="flex gap-6 text-sm text-neutral-900 lg:hidden">
+            <nav className="flex flex-wrap gap-x-6 gap-y-2 text-sm text-neutral-900 lg:hidden">
               <Link href="/about" className="transition-colors">
                 About
               </Link>
@@ -39,6 +39,9 @@ export default function RootLayout({
               </Link>
               <Link href="/writing" className="transition-colors">
                 Thoughts
+              </Link>
+              <Link href="/contact" className="transition-colors">
+                Contact
               </Link>
             </nav>
           </div>
@@ -61,6 +64,9 @@ export default function RootLayout({
               </Link>
               <Link href="/writing" className="transition-colors hover:text-neutral-500">
                 Thoughts
+              </Link>
+              <Link href="/contact" className="transition-colors hover:text-neutral-500">
+                Contact
               </Link>
             </nav>
           </aside>
