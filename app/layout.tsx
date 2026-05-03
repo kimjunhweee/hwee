@@ -34,9 +34,6 @@ export default function RootLayout({
               <Link href="/projects" className="transition-colors">
                 Projects
               </Link>
-              <Link href="/images" className="transition-colors">
-                Images
-              </Link>
               <Link href="/writing" className="transition-colors">
                 Thoughts
               </Link>
@@ -49,7 +46,7 @@ export default function RootLayout({
 
         <main className="flex-1 mx-auto w-full max-w-2xl px-6 py-20 lg:flex lg:items-start lg:gap-10">
           <aside className="hidden lg:block w-20 shrink-0">
-            <nav className="sticky top-8 flex flex-col gap-2 text-sm text-neutral-900">
+            <nav className="sticky top-8 flex flex-col gap-2 text-sm font-medium text-black">
               <Link href="/about" className="transition-colors hover:text-neutral-500">
                 About
               </Link>
@@ -59,15 +56,13 @@ export default function RootLayout({
               <Link href="/projects" className="transition-colors hover:text-neutral-500">
                 Projects
               </Link>
-              <Link href="/images" className="transition-colors hover:text-neutral-500">
-                Images
-              </Link>
               <Link href="/writing" className="transition-colors hover:text-neutral-500">
                 Thoughts
               </Link>
               <Link href="/contact" className="transition-colors hover:text-neutral-500">
                 Contact
               </Link>
+
             </nav>
           </aside>
           <div className="flex-1 min-w-0">
