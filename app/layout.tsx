@@ -31,8 +31,8 @@ export default function RootLayout({
               <Link href="/principles" className="transition-colors">
                 Principles
               </Link>
-              <Link href="/projects" className="transition-colors">
-                Projects
+              <Link href="/work" className="transition-colors">
+                Work
               </Link>
               <Link href="/writing" className="transition-colors">
                 Thoughts
@@ -53,8 +53,8 @@ export default function RootLayout({
               <Link href="/principles" className="transition-colors hover:text-neutral-500">
                 Principles
               </Link>
-              <Link href="/projects" className="transition-colors hover:text-neutral-500">
-                Projects
+              <Link href="/work" className="transition-colors hover:text-neutral-500">
+                Work
               </Link>
               <Link href="/writing" className="transition-colors hover:text-neutral-500">
                 Thoughts

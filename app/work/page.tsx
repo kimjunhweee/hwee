@@ -5,7 +5,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 
 export const metadata = {
-  title: "Projects",
+  title: "Work",
 };
 
 const PROJECTS_PATH = path.join(process.cwd(), "content", "projects.mdx");
