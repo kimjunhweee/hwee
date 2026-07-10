@@ -33,7 +33,7 @@ function Project({
           </span>
         )}
       </div>
-      <div className="mt-2 space-y-3 text-[15px] leading-[1.85] text-neutral-800 [&_p]:m-0">
+      <div className="mt-2 space-y-3 text-base leading-[1.85] text-neutral-800 [&_p]:m-0">
         {children}
       </div>
       {link && (

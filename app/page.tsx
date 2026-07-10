@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="space-y-4 text-[15px] leading-[1.85] text-neutral-800">
+    <section className="space-y-4 text-base leading-[1.85] text-neutral-800">
       <p>
         디자이너로 시작해 비즈니스를 만드는 사람이 되어가고 있습니다.
       </p>

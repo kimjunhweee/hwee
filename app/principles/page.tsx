@@ -22,7 +22,7 @@ function Principle({
       <div className="shrink-0 text-sm font-medium text-neutral-900 tracking-tight tabular-nums">
         {String(n).padStart(2, "0")}
       </div>
-      <div className="space-y-3 text-[15px] leading-[1.85] text-neutral-800 [&_p]:m-0">
+      <div className="space-y-3 text-base leading-[1.85] text-neutral-800 [&_p]:m-0">
         {children}
       </div>
     </section>
