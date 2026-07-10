@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className="min-h-screen flex flex-col bg-white text-neutral-900">
-        <header>
+        <header className="sticky top-0 z-20 bg-white">
           <div className="mx-auto max-w-2xl px-6 py-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between sm:gap-0">
             <Link href="/" className="text-base font-semibold tracking-tight">
               김준휘 | kimjunhwee
@@ -45,8 +45,8 @@ export default function RootLayout({
         </header>
 
         <main className="flex-1 mx-auto w-full max-w-2xl px-6 py-20 lg:flex lg:items-start lg:gap-10">
-          <aside className="hidden lg:block w-20 shrink-0">
-            <nav className="sticky top-8 flex flex-col gap-2 text-sm font-medium text-black">
+          <aside className="hidden lg:block w-20 shrink-0 sticky top-[152px] self-start">
+            <nav className="flex flex-col gap-2 text-sm font-medium text-black">
               <Link href="/about" className="transition-colors hover:text-neutral-500">
                 About
               </Link>
