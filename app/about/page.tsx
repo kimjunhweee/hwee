@@ -10,6 +10,14 @@ export const metadata = {
 
 const ABOUT_PATH = path.join(process.cwd(), "content", "about.mdx");
 
+function Intro({ children }: { children: React.ReactNode }) {
+  return (
+    <section className="mb-20 space-y-4 text-base leading-[1.85] text-neutral-800">
+      {children}
+    </section>
+  );
+}
+
 function Year({
   date,
   children,
@@ -31,6 +39,7 @@ function Year({
 }
 
 const components = {
+  Intro,
   Year,
   hr: () => <hr className="my-12 border-neutral-200" />,
 };
